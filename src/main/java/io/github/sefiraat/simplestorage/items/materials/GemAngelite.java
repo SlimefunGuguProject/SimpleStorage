@@ -28,11 +28,11 @@ public final class GemAngelite extends AbstractGem {
             case NORMAL:
                 switch (biome) {
                     case SNOWY_BEACH:
-                    case SNOWY_MOUNTAINS:
+                    case SNOWY_SLOPES:
+                    case JAGGED_PEAKS:
+                    case FROZEN_PEAKS:
                     case SNOWY_TAIGA:
-                    case SNOWY_TAIGA_HILLS:
-                    case SNOWY_TAIGA_MOUNTAINS:
-                    case SNOWY_TUNDRA:
+                    case SNOWY_PLAINS:
                     case COLD_OCEAN:
                     case DEEP_COLD_OCEAN:
                         return 25;
