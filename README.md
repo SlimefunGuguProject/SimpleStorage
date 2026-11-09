@@ -4,19 +4,7 @@ SimpleStorage (简易存储)是一个Slimefun附属插件，添加了大容量�
 
 ## 下载
 
-**警告：** 目前暂未对汉化版进行任何测试，仅对代码内的字符串进行汉化。使用出现任何问题请[立即汇报](https://github.com/ybw0014/SimpleStorage-CN/issues)
-
-点击这里下载 SimpleStorage: [下载 SimpleStorage](https://builds.guizhanss.net/ybw0014/SimpleStorage-CN/master)
-
-<p align="center">
-  <a href="https://github.com/ybw0014/SimpleStorage-CN/actions/workflows/maven.yml">
-    <img src="https://github.com/ybw0014/SimpleStorage-CN/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
-  </a>
-
-  <a href="https://builds.guizhanss.net/ybw0014/SimpleStorage-CN/master">
-    <img src="https://builds.guizhanss.net/f/ybw0014/SimpleStorage-CN/master/badge.svg" alt="Build status"/>
-  </a>
-</p>
+[下载 SimpleStorage](https://resources.guizhanss.com/plugin/SimpleStorage)
 
 ## 内容
 
