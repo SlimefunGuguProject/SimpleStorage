@@ -1,5 +1,6 @@
 package io.github.sefiraat.simplestorage.runnables;
 
+import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedParticle;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Particle;
@@ -25,7 +26,7 @@ public class RunnableHighlight extends BukkitRunnable {
         if (runs <= 0) {
              this.cancel();
         } else {
-            spawnParticleAlongLine(startLoc, endLoc, Particle.REDSTONE, 20, 2, 0, 0, 0, 0, dustOptions, true);
+            spawnParticleAlongLine(startLoc, endLoc, VersionedParticle.DUST, 20, 2, 0, 0, 0, 0, dustOptions, true);
             runs--;
         }
     }

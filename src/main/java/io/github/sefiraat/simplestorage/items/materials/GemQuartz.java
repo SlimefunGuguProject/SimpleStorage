@@ -29,7 +29,6 @@ public final class GemQuartz extends AbstractGem {
                 case FLOWER_FOREST:
                     return 2;
                 case MUSHROOM_FIELDS:
-                case MUSHROOM_FIELD_SHORE:
                     return 4;
                 default:
                     return 0;

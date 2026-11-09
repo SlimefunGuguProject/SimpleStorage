@@ -1,12 +1,12 @@
 package io.github.sefiraat.simplestorage.items.chests;
 
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
 import io.github.sefiraat.simplestorage.utils.Utils;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
@@ -39,7 +39,7 @@ public final class NetworkChest extends MenuBlock {
             }
 
             @Override
-            public void tick(Block block, SlimefunItem item, Config data) {
+            public void tick(Block block, SlimefunItem item, SlimefunBlockData data) {
                 NetworkInventoryCache networkInventoryCache = NetworkChest.this.inventoryCaches.get(block.getLocation());
                 if (networkInventoryCache != null) {
                     networkInventoryCache.process();
